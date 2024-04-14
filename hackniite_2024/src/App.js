@@ -6,9 +6,9 @@ const mapContainerStyle = {
   width: '100vw',
   height: '100vh',
 };
-const center = {
-  lat: 7.2905715, // default latitude
-  lng: 80.6337262, // default longitude
+const loadPosition = {
+  lat: 41.8781,
+  lng: -87.6298
 };
 
 const App = () => {
@@ -29,10 +29,10 @@ const App = () => {
     <div>
       <GoogleMap
         mapContainerStyle={mapContainerStyle}
-        zoom={10}
-        center={center}
+        zoom={11}
+        center={loadPosition}
       >
-        <Marker position={center} />
+        <Marker position={loadPosition} />
       </GoogleMap>
     </div>
   );
