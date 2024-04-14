@@ -1,5 +1,5 @@
 import React from 'react';
-import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
+import { useLoadScript, GoogleMap, Marker } from '@react-google-maps/api';
 
 const libraries = ['places'];
 const mapContainerStyle = {
@@ -13,29 +13,37 @@ const loadPosition = {
 
 const App = () => {
   const { isLoaded, loadError } = useLoadScript({
+    id: 'google-map-script',
     googleMapsApiKey: 'AIzaSyBF8kUGA8g9S0RsMe6BJkgZb4GS4t6b0aE',
     libraries,
   });
 
-  if (loadError) {
-    return <div>Error loading maps</div>;
-  }
+  const renderMap = () => {
+    // const onLoad = React.useCallback(
+    //   function onLoad(mapInstance) {
+    //     // do something with map Instance
+    //   }
+    // )
 
-  if (!isLoaded) {
-    return <div>Loading maps</div>;
-  }
-
-  return (
-    <div>
+    return <div>
       <GoogleMap
         mapContainerStyle={mapContainerStyle}
         zoom={11}
         center={loadPosition}
       >
-        <Marker position={loadPosition} />
+        <Marker
+          position={loadPosition}
+          title='Chicago'
+        />
       </GoogleMap>
     </div>
-  );
+  }
+
+  if (loadError) {
+    return <div>Error loading maps.</div>;
+  }
+
+  return isLoaded ? renderMap() : <div></div>;
 };
 
 export default App;
