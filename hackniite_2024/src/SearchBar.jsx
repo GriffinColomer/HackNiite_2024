@@ -1,42 +1,61 @@
-import Select from 'react-select';
-import 'react-select/dist/react-select.css';
 import React, { useState } from 'react';
 import get_divvy_stations from './station_info';
-
+import './SearchBar.css'; // Import your CSS file
 
 const SearchBar = () => {
-  const [startStation, setStartStation] = useState(null);
-  const [endStation, setEndStation] = useState(null);
+  const [startStation, setStartStation] = useState('');
+  const [endStation, setEndStation] = useState('');
+  const [suggestions, setSuggestions] = useState([]);
 
-  const divvyStations = get_divvy_stations().map(station => ({
-    value: station.station_name,
-    label: station.station_name,
-  }));
+  const divvyStations = get_divvy_stations().map(station => station.station_name);
 
-  const handleStartStationChange = (selectedOption) => {
-    setStartStation(selectedOption);
+  const handleStartStationChange = (event) => {
+    const { value } = event.target;
+    setStartStation(value);
+    filterSuggestions(value, setSuggestions);
   };
 
-  const handleEndStationChange = (selectedOption) => {
-    setEndStation(selectedOption);
+  const handleEndStationChange = (event) => {
+    const { value } = event.target;
+    setEndStation(value);
+    filterSuggestions(value, setSuggestions);
+  };
+
+  const filterSuggestions = (value, setSuggestionsCallback) => {
+    const filteredSuggestions = divvyStations.filter(station =>
+      station.toLowerCase().includes(value.toLowerCase())
+    );
+    setSuggestionsCallback(filteredSuggestions);
   };
 
   return (
-    <div>
-      <Select
-        value={startStation}
-        onChange={handleStartStationChange}
-        options={divvyStations}
-        placeholder="Start Station"
-        isDisabled={!divvyStations.length}
-      />
-      <Select
-        value={endStation}
-        onChange={handleEndStationChange}
-        options={divvyStations.filter(station => station.value !== startStation?.value)}
-        placeholder="End Station"
-        isDisabled={!divvyStations.length || !startStation}
-      />
+    <div className="search-bar-container">
+      <div className="input-container">
+        <input
+          type="text"
+          value={startStation}
+          onChange={handleStartStationChange}
+          placeholder="Start Station"
+          list="suggestions"
+          className="search-input"
+        />
+        <datalist id="suggestions">
+          {suggestions.map((suggestion, index) => (
+            <option key={index} value={suggestion} />
+          ))}
+        </datalist>
+      </div>
+      <div className="input-container">
+        <input
+          type="text"
+          value={endStation}
+          onChange={handleEndStationChange}
+          placeholder="End Station"
+          list="suggestions"
+          className="search-input"
+          disabled={!startStation}
+        />
+      </div>
     </div>
   );
 };
