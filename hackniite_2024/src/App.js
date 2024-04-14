@@ -1,6 +1,5 @@
 import React from 'react';
 import get_divvy_stations from './station_info'
-import DataPreprocessing from './DataPreprocessing';
 import DivvyMap from './DivvyMap';
 import SearchBar from './SearchBar';
 
@@ -14,7 +13,6 @@ const App = () => {
       <DivvyMap
         stations={divvy_stations}
       />
-      <DataPreprocessing />
     </div>
     );
 };
