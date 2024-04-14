@@ -4,12 +4,14 @@ import DataPreprocessing from './DataPreprocessing';
 import DivvyMap from './DivvyMap';
 
 const App = () => {
-  get_divvy_stations();
+  const divvy_stations = get_divvy_stations();
   // console.log(divvy_stations)
 
     return (
     <div>
-      <DivvyMap />
+      <DivvyMap
+        stations={divvy_stations}
+      />
       <DataPreprocessing />
     </div>
     );

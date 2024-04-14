@@ -12,7 +12,7 @@ const loadPosition = {
   lng: -87.6298
 };
 
-const DivvyMap = () => {
+const DivvyMap = ({ stations = [] }) => {
 
   const { isLoaded, loadError } = useLoadScript({
     id: 'google-map-script',
@@ -20,12 +20,22 @@ const DivvyMap = () => {
     libraries,
   });
 
-  const renderMap = () => {
+  const renderMap = (stations = []) => {
     // const onLoad = React.useCallback(
     //   function onLoad(mapInstance) {
     //     // do something with map Instance
     //   }
     // )
+
+    const markers = []; // Create an empty array to store ListItem
+
+    stations.forEach((station) => {
+      const markerPosition = {
+        lat: station.latitude,
+        lng: station.longitude,
+      };
+      markers.push(<Marker position={markerPosition} title={station.station_name} />);
+    });
 
     // Render the preprocessed data
     return (
@@ -35,10 +45,7 @@ const DivvyMap = () => {
           zoom={11}
           center={loadPosition}
         >
-          <Marker
-            position={loadPosition}
-            title='Chicago'
-          />
+          {markers}
         </GoogleMap>
       </div>
     );
@@ -48,7 +55,7 @@ const DivvyMap = () => {
     return <div>Error loading maps.</div>;
   }
 
-  return isLoaded ? renderMap() : <div></div>;
+  return isLoaded ? renderMap(stations) : <div></div>;
 };
 
 export default DivvyMap;
