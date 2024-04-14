@@ -1,5 +1,5 @@
 import React from 'react';
-import get_divvy_stations from './station_info'
+import get_divvy_stations from './helpers/StationInfo'
 import DivvyMap from './DivvyMap';
 import SearchBar from './SearchBar';
 
