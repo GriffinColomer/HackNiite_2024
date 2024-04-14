@@ -9,7 +9,10 @@ function divvy_stop(latitude, longitude, station_name){
   
   function parse_divvy_stops(data) {
     for (let i = 0; i < data["data"]["stations"].length; i++) {
-      all_divvy_stops[i] = new divvy_stop(data["data"]["stations"][i]["lat"], data["data"]["stations"][i]["lon"], data["data"]["stations"][i]["name"]);
+      if (data["data"]["stations"][i]["name"].includes("Public") == false){
+        all_divvy_stops[i] = new divvy_stop(data["data"]["stations"][i]["lat"], data["data"]["stations"][i]["lon"], data["data"]["stations"][i]["name"]);
+      }
+        
   }
   }
 
