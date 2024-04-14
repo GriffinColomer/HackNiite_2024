@@ -1,5 +1,3 @@
-import React, { useEffect } from 'react';
-
 const all_divvy_stops = [];
 
 function divvy_stop(latitude, longitude, station_name){

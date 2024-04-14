@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import get_divvy_stations from './station_info'
 import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
 import DataPreprocessing from './DataPreprocessing';
 
 const libraries = ['places'];
 const mapContainerStyle = {
-  width: '100vw',
+  width: '100%',
   height: '100vh',
 };
 const loadPosition = {
@@ -14,8 +14,8 @@ const loadPosition = {
 };
 
 const App = () => {
-  const divvy_stations = get_divvy_stations()
-  console.log(divvy_stations)
+  get_divvy_stations()
+  // console.log(divvy_stations)
 
   const { isLoaded, loadError } = useLoadScript({
     id: 'google-map-script',
