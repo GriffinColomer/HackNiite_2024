@@ -20,22 +20,23 @@ const DivvyMap = ({ stations = [] }) => {
     libraries,
   });
 
-  const renderMap = (stations = []) => {
+  const renderMap = (stationsRender = []) => {
     // const onLoad = React.useCallback(
     //   function onLoad(mapInstance) {
     //     // do something with map Instance
     //   }
     // )
 
-    const markers = []; // Create an empty array to store ListItem
+    const markers = []; // Create an empty array to store Markers
 
-    stations.forEach((station) => {
+    for (let i = 0; i < stationsRender.length; i++)
+    {
       const markerPosition = {
-        lat: station.latitude,
-        lng: station.longitude,
+        lat: stationsRender[i].latitude,
+        lng: stationsRender[i].longitude,
       };
-      markers.push(<Marker position={markerPosition} title={station.station_name} />);
-    });
+      markers.push(<Marker key={i} title={stationsRender[i].station_name} position={markerPosition} />);
+    }
 
     // Render the preprocessed data
     return (
