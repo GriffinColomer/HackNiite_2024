@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import get_divvy_stations from './station_info'
 import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
+import DataPreprocessing from './DataPreprocessing';
 
 const libraries = ['places'];
 const mapContainerStyle = {
@@ -38,7 +39,10 @@ const App = () => {
       >
         <Marker position={loadPosition} />
       </GoogleMap>
+
+      <DataPreprocessing />
     </div>
+    
   );
 };
 
