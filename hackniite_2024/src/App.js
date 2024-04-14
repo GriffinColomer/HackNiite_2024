@@ -1,5 +1,7 @@
-import React from 'react';
-import { useLoadScript, GoogleMap, Marker } from '@react-google-maps/api';
+import React, { useEffect } from 'react';
+import get_divvy_stations from './station_info'
+import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
+import DataPreprocessing from './DataPreprocessing';
 
 const libraries = ['places'];
 const mapContainerStyle = {
@@ -12,6 +14,9 @@ const loadPosition = {
 };
 
 const App = () => {
+  const divvy_stations = get_divvy_stations()
+  console.log(divvy_stations)
+
   const { isLoaded, loadError } = useLoadScript({
     id: 'google-map-script',
     googleMapsApiKey: 'AIzaSyBF8kUGA8g9S0RsMe6BJkgZb4GS4t6b0aE',
@@ -36,6 +41,8 @@ const App = () => {
           title='Chicago'
         />
       </GoogleMap>
+
+      <DataPreprocessing />
     </div>
   }
 
