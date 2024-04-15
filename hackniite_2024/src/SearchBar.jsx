@@ -1,9 +1,16 @@
 import React, { useState } from 'react';
-import ResponsiveTimePickers from './time_picker';
+import { MobileTimePicker } from '@mui/x-date-pickers/MobileTimePicker';
+import { LocalizationProvider } from '@mui/x-date-pickers';
+import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
 import './SearchBar.css';
 
-const SearchBar = ({ stations = [], onStartStationChange, onEndStationChange, startStation, endStation }) => {
+const SearchBar = ({ stations = [], onStartStationChange, onEndStationChange, startStation, endStation, time }) => {
   const [suggestions, setSuggestions] = useState([]);
+  const [selectedTime, setSelectedTime] = useState('');
+
+  const handleTimeSelection = (e) => {
+    setSelectedTime(e.target.value);
+  };
 
   const handleStartStationChange = (event) => {
     const { value } = event.target;
@@ -54,7 +61,12 @@ const SearchBar = ({ stations = [], onStartStationChange, onEndStationChange, st
         />
       </div>
       <div>
-        {ResponsiveTimePickers()}
+        <LocalizationProvider dateAdapter={AdapterDayjs}>
+            <MobileTimePicker
+              className='time-picker'
+              value={selectedTime}
+              onChange={handleTimeSelection}/>
+        </LocalizationProvider>
       </div>
     </div>
   );
