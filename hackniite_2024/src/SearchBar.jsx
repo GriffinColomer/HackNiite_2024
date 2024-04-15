@@ -1,21 +1,22 @@
 import React, { useState } from 'react';
-import './SearchBar.css'; // Import your CSS file
+import { MobileTimePicker } from '@mui/x-date-pickers/MobileTimePicker';
+import { LocalizationProvider } from '@mui/x-date-pickers';
+import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
+import './SearchBar.css';
 
-const SearchBar = ({ stations = [] }) => {
-  const [startStation, setStartStation] = useState('');
-  const [endStation, setEndStation] = useState('');
+const SearchBar = ({ stations = [], onStartStationChange, onEndStationChange, startStation, endStation, selectedTime, setSelectedTime}) => {
   const [suggestions, setSuggestions] = useState([]);
 
   const handleStartStationChange = (event) => {
     const { value } = event.target;
-    setStartStation(value);
     filterSuggestions(value, setSuggestions);
+    onStartStationChange(value);
   };
 
   const handleEndStationChange = (event) => {
     const { value } = event.target;
-    setEndStation(value);
     filterSuggestions(value, setSuggestions);
+    onEndStationChange(value);
   };
 
   const filterSuggestions = (value, setSuggestionsCallback) => {
@@ -53,6 +54,14 @@ const SearchBar = ({ stations = [] }) => {
           className="search-input"
           disabled={!startStation}
         />
+      </div>
+      <div>
+        <LocalizationProvider dateAdapter={AdapterDayjs}>
+            <MobileTimePicker
+              className='time-picker'
+              value={selectedTime}
+              onChange={setSelectedTime}/>
+        </LocalizationProvider>
       </div>
     </div>
   );
