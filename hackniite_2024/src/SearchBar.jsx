@@ -64,7 +64,7 @@ const SearchBar = ({ stations = [], onStartStationChange, onEndStationChange, st
         <LocalizationProvider dateAdapter={AdapterDayjs}>
             <MobileTimePicker
               className='time-picker'
-              value={selectedTime}
+              // value={selectedTime}
               onChange={handleTimeSelection}/>
         </LocalizationProvider>
       </div>

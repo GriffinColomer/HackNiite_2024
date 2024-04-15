@@ -44,6 +44,14 @@ nav {
   text-decoration: none;
 }
 
+.hero {
+  /* background-image: url('hero-background.jpg'); */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
 
 .hero h1 {
   font-size: 48px;
