@@ -1,0 +1,155 @@
+rideable_type,started_at,start_date,start_day_of_the_week,start_time,ended_at,end_date,end_day_of_the_week,end_time,time,start_station_name,end_station_name,diff
+classic_bike,3/22/2024 11:51,3/22/2024,Friday,11:51:00,3/22/2024 12:15,3/22/2024,Friday,12:15:00,11:51:00,Michigan Ave & Ida B Wells Dr,Ashland Ave & Blackhawk St,-1
+classic_bike,2/23/2024 14:06,2/23/2024,Friday,14:06:12,2/23/2024 14:46,2/23/2024,Friday,14:46:00,14:06:12,Michigan Ave & Ida B Wells Dr,Broadway & Belmont Ave,-1
+classic_bike,3/29/2024 7:16,3/29/2024,Friday,7:16:00,3/29/2024 7:24,3/29/2024,Friday,7:24:00,7:16:00,Michigan Ave & Ida B Wells Dr,Canal St & Harrison St,-1
+classic_bike,3/8/2024 7:34,3/8/2024,Friday,7:34:00,3/8/2024 7:42,3/8/2024,Friday,7:42:00,7:34:00,Michigan Ave & Ida B Wells Dr,Canal St & Harrison St,-1
+classic_bike,3/8/2024 19:16,3/8/2024,Friday,19:16:00,3/8/2024 19:23,3/8/2024,Friday,19:23:00,19:16:00,Michigan Ave & Ida B Wells Dr,Canal St & Jackson Blvd,-1
+classic_bike,3/29/2024 20:12,3/29/2024,Friday,20:12:00,3/29/2024 20:20,3/29/2024,Friday,20:20:00,20:12:00,Michigan Ave & Ida B Wells Dr,Canal St & Jackson Blvd,-1
+electric_bike,3/29/2024 10:11,3/29/2024,Friday,10:11:00,3/29/2024 10:19,3/29/2024,Friday,10:19:00,10:11:00,Michigan Ave & Ida B Wells Dr,Canal St & Madison St,-1
+classic_bike,3/29/2024 14:04,3/29/2024,Friday,14:04:00,3/29/2024 14:12,3/29/2024,Friday,14:12:00,14:04:00,Michigan Ave & Ida B Wells Dr,Canal St & Madison St,-1
+classic_bike,2/16/2024 13:33,2/16/2024,Friday,13:33:22,2/16/2024 13:41,2/16/2024,Friday,13:41:00,13:33:22,Michigan Ave & Ida B Wells Dr,Canal St & Monroe St,-1
+classic_bike,3/15/2024 17:07,3/15/2024,Friday,17:07:00,3/15/2024 17:20,3/15/2024,Friday,17:20:00,17:07:00,Michigan Ave & Ida B Wells Dr,Canal St & Monroe St,-1
+classic_bike,3/8/2024 0:25,3/8/2024,Friday,0:25:00,3/8/2024 0:45,3/8/2024,Friday,0:45:00,0:25:00,Michigan Ave & Ida B Wells Dr,Clinton St & 18th St,-1
+electric_bike,2/23/2024 14:14,2/23/2024,Friday,14:14:35,2/23/2024 14:23,2/23/2024,Friday,14:23:00,14:14:35,Michigan Ave & Ida B Wells Dr,Clinton St & Madison St,-1
+classic_bike,2/16/2024 15:27,2/16/2024,Friday,15:27:21,2/16/2024 15:37,2/16/2024,Friday,15:37:00,15:27:21,Michigan Ave & Ida B Wells Dr,Clinton St & Washington Blvd,-1
+classic_bike,3/15/2024 13:10,3/15/2024,Friday,13:10:00,3/15/2024 13:17,3/15/2024,Friday,13:17:00,13:10:00,Michigan Ave & Ida B Wells Dr,Columbus Dr & Randolph St,-1
+classic_bike,2/23/2024 15:31,2/23/2024,Friday,15:31:10,2/23/2024 15:43,2/23/2024,Friday,15:43:00,15:31:10,Michigan Ave & Ida B Wells Dr,Daley Center Plaza,-1
+classic_bike,2/2/2024 9:22,2/2/2024,Friday,9:22:00,2/2/2024 9:49,2/2/2024,Friday,9:49:00,9:22:00,Michigan Ave & Ida B Wells Dr,Daley Center Plaza,-1
+classic_bike,2/23/2024 9:44,2/23/2024,Friday,9:44:04,2/23/2024 10:23,2/23/2024,Friday,10:23:00,9:44:04,Michigan Ave & Ida B Wells Dr,Damen Ave & Chicago Ave,-1
+classic_bike,2/23/2024 9:44,2/23/2024,Friday,9:44:16,2/23/2024 10:23,2/23/2024,Friday,10:23:00,9:44:16,Michigan Ave & Ida B Wells Dr,Damen Ave & Chicago Ave,-1
+classic_bike,2/23/2024 15:12,2/23/2024,Friday,15:12:11,2/23/2024 15:24,2/23/2024,Friday,15:24:00,15:12:11,Michigan Ave & Ida B Wells Dr,Dearborn Pkwy & Delaware Pl,-1
+electric_bike,2/9/2024 17:26,2/9/2024,Friday,17:26:25,2/9/2024 18:17,2/9/2024,Friday,18:17:00,17:26:25,Michigan Ave & Ida B Wells Dr,Dearborn St & Adams St,-1
+classic_bike,2/9/2024 9:55,2/9/2024,Friday,9:55:35,2/9/2024 10:58,2/9/2024,Friday,10:58:00,9:55:35,Michigan Ave & Ida B Wells Dr,Dearborn St & Erie St,-1
+classic_bike,2/2/2024 18:17,2/2/2024,Friday,18:17:13,2/2/2024 18:30,2/2/2024,Friday,18:30:00,18:17:13,Michigan Ave & Ida B Wells Dr,Dusable Harbor,-1
+classic_bike,2/9/2024 20:05,2/9/2024,Friday,20:05:53,2/9/2024 20:16,2/9/2024,Friday,20:16:00,20:05:53,Michigan Ave & Ida B Wells Dr,Federal St & Polk St,-1
+classic_bike,2/16/2024 13:03,2/16/2024,Friday,13:03:57,2/16/2024 13:17,2/16/2024,Friday,13:17:00,13:03:57,Michigan Ave & Ida B Wells Dr,Field Blvd & South Water St,-1
+electric_bike,3/22/2024 15:15,3/22/2024,Friday,15:15:00,3/22/2024 15:19,3/22/2024,Friday,15:19:00,15:15:00,Michigan Ave & Ida B Wells Dr,Financial Pl & Ida B Wells Dr,-1
+classic_bike,2/23/2024 10:17,2/23/2024,Friday,10:17:01,2/23/2024 10:30,2/23/2024,Friday,10:30:00,10:17:01,Michigan Ave & Ida B Wells Dr,Franklin St & Illinois St,-1
+classic_bike,3/29/2024 13:29,3/29/2024,Friday,13:29:00,3/29/2024 13:42,3/29/2024,Friday,13:42:00,13:29:00,Michigan Ave & Ida B Wells Dr,Franklin St & Illinois St,-1
+classic_bike,2/9/2024 7:49,2/9/2024,Friday,7:49:02,2/9/2024 7:54,2/9/2024,Friday,7:54:00,7:49:02,Michigan Ave & Ida B Wells Dr,Franklin St & Jackson Blvd,-1
+classic_bike,3/1/2024 22:41,3/1/2024,Friday,22:41:00,3/1/2024 22:57,3/1/2024,Friday,22:57:00,22:41:00,Michigan Ave & Ida B Wells Dr,Green St & Washington Blvd,-1
+classic_bike,2/9/2024 15:54,2/9/2024,Friday,15:54:48,2/9/2024 15:57,2/9/2024,Friday,15:57:00,15:54:48,Michigan Ave & Ida B Wells Dr,Indiana Ave & Roosevelt Rd,-1
+classic_bike,2/9/2024 17:35,2/9/2024,Friday,17:35:18,2/9/2024 17:40,2/9/2024,Friday,17:40:00,17:35:18,Michigan Ave & Ida B Wells Dr,Indiana Ave & Roosevelt Rd,-1
+classic_bike,3/22/2024 14:37,3/22/2024,Friday,14:37:00,3/22/2024 14:41,3/22/2024,Friday,14:41:00,14:37:00,Michigan Ave & Ida B Wells Dr,Indiana Ave & Roosevelt Rd,-1
+classic_bike,2/9/2024 10:06,2/9/2024,Friday,10:06:39,2/9/2024 10:22,2/9/2024,Friday,10:22:00,10:06:39,Michigan Ave & Ida B Wells Dr,Kingsbury St & Kinzie St,-1
+electric_bike,3/22/2024 15:59,3/22/2024,Friday,15:59:00,3/22/2024 16:03,3/22/2024,Friday,16:03:00,15:59:00,Michigan Ave & Ida B Wells Dr,LaSalle St & Washington St,-1
+classic_bike,3/15/2024 13:49,3/15/2024,Friday,13:49:00,3/15/2024 13:58,3/15/2024,Friday,13:58:00,13:49:00,Michigan Ave & Ida B Wells Dr,LaSalle St & Washington St,-1
+classic_bike,2/23/2024 11:09,2/23/2024,Friday,11:09:20,2/23/2024 11:20,2/23/2024,Friday,11:20:00,11:09:20,Michigan Ave & Ida B Wells Dr,Michigan Ave & 14th St,-1
+electric_bike,3/15/2024 12:06,3/15/2024,Friday,12:06:00,3/15/2024 12:11,3/15/2024,Friday,12:11:00,12:06:00,Michigan Ave & Ida B Wells Dr,Michigan Ave & 14th St,-1
+classic_bike,3/29/2024 12:04,3/29/2024,Friday,12:04:00,3/29/2024 12:16,3/29/2024,Friday,12:16:00,12:04:00,Michigan Ave & Ida B Wells Dr,Michigan Ave & 14th St,-1
+classic_bike,3/15/2024 13:42,3/15/2024,Friday,13:42:00,3/15/2024 13:52,3/15/2024,Friday,13:52:00,13:42:00,Michigan Ave & Ida B Wells Dr,Michigan Ave & 14th St,-1
+classic_bike,3/15/2024 21:06,3/15/2024,Friday,21:06:00,3/15/2024 21:11,3/15/2024,Friday,21:11:00,21:06:00,Michigan Ave & Ida B Wells Dr,Michigan Ave & 14th St,-1
+electric_bike,3/1/2024 11:53,3/1/2024,Friday,11:53:00,3/1/2024 11:58,3/1/2024,Friday,11:58:00,11:53:00,Michigan Ave & Ida B Wells Dr,Michigan Ave & 14th St,-1
+classic_bike,2/16/2024 17:43,2/16/2024,Friday,17:43:02,2/16/2024 17:45,2/16/2024,Friday,17:45:00,17:43:02,Michigan Ave & Ida B Wells Dr,Michigan Ave & 8th St,-1
+classic_bike,2/2/2024 14:08,2/2/2024,Friday,14:08:31,2/2/2024 14:09,2/2/2024,Friday,14:09:00,14:08:31,Michigan Ave & Ida B Wells Dr,Michigan Ave & Jackson Blvd,-1
+electric_bike,2/2/2024 12:38,2/2/2024,Friday,12:38:47,2/2/2024 12:41,2/2/2024,Friday,12:41:00,12:38:47,Michigan Ave & Ida B Wells Dr,Michigan Ave & Jackson Blvd,-1
+classic_bike,2/9/2024 15:47,2/9/2024,Friday,15:47:59,2/9/2024 15:54,2/9/2024,Friday,15:54:00,15:47:59,Michigan Ave & Ida B Wells Dr,Michigan Ave & Lake St,-1
+classic_bike,2/23/2024 16:10,2/23/2024,Friday,16:10:33,2/23/2024 16:19,2/23/2024,Friday,16:19:00,16:10:33,Michigan Ave & Ida B Wells Dr,Michigan Ave & Madison St,-1
+electric_bike,3/15/2024 23:49,3/15/2024,Friday,23:49:00,3/15/2024 23:51,3/15/2024,Friday,23:51:00,23:49:00,Michigan Ave & Ida B Wells Dr,Michigan Ave & Madison St,-1
+classic_bike,2/2/2024 8:48,2/2/2024,Friday,8:48:00,2/2/2024 8:53,2/2/2024,Friday,8:53:00,8:48:00,Michigan Ave & Ida B Wells Dr,Michigan Ave & Washington St,-1
+classic_bike,2/9/2024 19:49,2/9/2024,Friday,19:49:19,2/9/2024 19:52,2/9/2024,Friday,19:52:00,19:49:19,Michigan Ave & Ida B Wells Dr,Michigan Ave & Washington St,-1
+electric_bike,3/29/2024 8:29,3/29/2024,Friday,8:29:00,3/29/2024 8:56,3/29/2024,Friday,8:56:00,8:29:00,Michigan Ave & Ida B Wells Dr,Michigan Ave & Washington St,-1
+electric_bike,3/29/2024 8:31,3/29/2024,Friday,8:31:00,3/29/2024 8:58,3/29/2024,Friday,8:58:00,8:31:00,Michigan Ave & Ida B Wells Dr,Michigan Ave & Washington St,-1
+classic_bike,2/23/2024 8:32,2/23/2024,Friday,8:32:59,2/23/2024 8:38,2/23/2024,Friday,8:38:00,8:32:59,Michigan Ave & Ida B Wells Dr,Millennium Park,-1
+classic_bike,3/15/2024 15:49,3/15/2024,Friday,15:49:00,3/15/2024 16:25,3/15/2024,Friday,16:25:00,15:49:00,Michigan Ave & Ida B Wells Dr,Millennium Park,-1
+electric_bike,3/8/2024 20:30,3/8/2024,Friday,20:30:00,3/8/2024 20:48,3/8/2024,Friday,20:48:00,20:30:00,Michigan Ave & Ida B Wells Dr,Racine Ave & 15th St,-1
+electric_bike,3/15/2024 23:49,3/15/2024,Friday,23:49:00,3/15/2024 23:59,3/15/2024,Friday,23:59:00,23:49:00,Michigan Ave & Ida B Wells Dr,Rush St & Hubbard St,-1
+classic_bike,3/29/2024 11:26,3/29/2024,Friday,11:26:00,3/29/2024 11:59,3/29/2024,Friday,11:59:00,11:26:00,Michigan Ave & Ida B Wells Dr,Shedd Aquarium,-1
+classic_bike,3/29/2024 11:22,3/29/2024,Friday,11:22:00,3/29/2024 11:59,3/29/2024,Friday,11:59:00,11:22:00,Michigan Ave & Ida B Wells Dr,Shedd Aquarium,-1
+classic_bike,3/29/2024 11:23,3/29/2024,Friday,11:23:00,3/29/2024 11:59,3/29/2024,Friday,11:59:00,11:23:00,Michigan Ave & Ida B Wells Dr,Shedd Aquarium,-1
+classic_bike,3/29/2024 12:56,3/29/2024,Friday,12:56:00,3/29/2024 13:09,3/29/2024,Friday,13:09:00,12:56:00,Michigan Ave & Ida B Wells Dr,Stetson Ave & South Water St,-1
+classic_bike,3/29/2024 12:55,3/29/2024,Friday,12:55:00,3/29/2024 13:09,3/29/2024,Friday,13:09:00,12:55:00,Michigan Ave & Ida B Wells Dr,Stetson Ave & South Water St,-1
+classic_bike,3/29/2024 14:57,3/29/2024,Friday,14:57:00,3/29/2024 15:13,3/29/2024,Friday,15:13:00,14:57:00,Michigan Ave & Ida B Wells Dr,Streeter Dr & Grand Ave,-1
+classic_bike,3/15/2024 13:28,3/15/2024,Friday,13:28:00,3/15/2024 13:35,3/15/2024,Friday,13:35:00,13:28:00,Michigan Ave & Ida B Wells Dr,Wabash Ave & 16th St,-1
+classic_bike,2/9/2024 12:11,2/9/2024,Friday,12:11:36,2/9/2024 12:14,2/9/2024,Friday,12:14:00,12:11:36,Michigan Ave & Ida B Wells Dr,Wabash Ave & 9th St,-1
+classic_bike,3/8/2024 11:57,3/8/2024,Friday,11:57:00,3/8/2024 12:00,3/8/2024,Friday,12:00:00,11:57:00,Michigan Ave & Ida B Wells Dr,Wabash Ave & 9th St,-1
+electric_bike,3/29/2024 13:42,3/29/2024,Friday,13:42:00,3/29/2024 13:52,3/29/2024,Friday,13:52:00,13:42:00,Michigan Ave & Ida B Wells Dr,Wabash Ave & 9th St,-1
+electric_bike,2/2/2024 9:30,2/2/2024,Friday,9:30:52,2/2/2024 9:32,2/2/2024,Friday,9:32:00,9:30:52,Michigan Ave & Ida B Wells Dr,Michigan Ave & Ida B Wells Dr,0
+classic_bike,2/2/2024 14:07,2/2/2024,Friday,14:07:51,2/2/2024 14:07,2/2/2024,Friday,14:07:00,14:07:51,Michigan Ave & Ida B Wells Dr,Michigan Ave & Ida B Wells Dr,0
+classic_bike,2/2/2024 11:39,2/2/2024,Friday,11:39:16,2/2/2024 11:40,2/2/2024,Friday,11:40:00,11:39:16,Michigan Ave & Ida B Wells Dr,Michigan Ave & Ida B Wells Dr,0
+classic_bike,2/2/2024 18:15,2/2/2024,Friday,18:15:44,2/2/2024 18:16,2/2/2024,Friday,18:16:00,18:15:44,Michigan Ave & Ida B Wells Dr,Michigan Ave & Ida B Wells Dr,0
+electric_bike,2/2/2024 9:20,2/2/2024,Friday,9:20:53,2/2/2024 9:21,2/2/2024,Friday,9:21:00,9:20:53,Michigan Ave & Ida B Wells Dr,Michigan Ave & Ida B Wells Dr,0
+classic_bike,3/15/2024 10:41,3/15/2024,Friday,10:41:00,3/15/2024 11:17,3/15/2024,Friday,11:17:00,10:41:00,Michigan Ave & Ida B Wells Dr,Michigan Ave & Ida B Wells Dr,0
+classic_bike,3/1/2024 10:04,3/1/2024,Friday,10:04:00,3/1/2024 10:04,3/1/2024,Friday,10:04:00,10:04:00,Michigan Ave & Ida B Wells Dr,Michigan Ave & Ida B Wells Dr,0
+classic_bike,3/1/2024 7:14,3/1/2024,Friday,7:14:00,3/1/2024 7:15,3/1/2024,Friday,7:15:00,7:14:00,Michigan Ave & Ida B Wells Dr,Michigan Ave & Ida B Wells Dr,0
+classic_bike,3/1/2024 20:11,3/1/2024,Friday,20:11:00,3/1/2024 20:14,3/1/2024,Friday,20:14:00,20:11:00,Michigan Ave & Ida B Wells Dr,Michigan Ave & Ida B Wells Dr,0
+classic_bike,3/1/2024 7:52,3/1/2024,Friday,7:52:00,3/1/2024 7:52,3/1/2024,Friday,7:52:00,7:52:00,Michigan Ave & Ida B Wells Dr,Michigan Ave & Ida B Wells Dr,0
+classic_bike,3/1/2024 7:53,3/1/2024,Friday,7:53:00,3/1/2024 7:54,3/1/2024,Friday,7:54:00,7:53:00,Michigan Ave & Ida B Wells Dr,Michigan Ave & Ida B Wells Dr,0
+electric_bike,3/1/2024 19:08,3/1/2024,Friday,19:08:00,3/1/2024 19:10,3/1/2024,Friday,19:10:00,19:08:00,Michigan Ave & Ida B Wells Dr,Michigan Ave & Ida B Wells Dr,0
+electric_bike,3/1/2024 19:12,3/1/2024,Friday,19:12:00,3/1/2024 19:14,3/1/2024,Friday,19:14:00,19:12:00,Michigan Ave & Ida B Wells Dr,Michigan Ave & Ida B Wells Dr,0
+electric_bike,2/2/2024 9:30,2/2/2024,Friday,9:30:52,2/2/2024 9:32,2/2/2024,Friday,9:32:00,9:30:52,Michigan Ave & Ida B Wells Dr,Michigan Ave & Ida B Wells Dr,0
+classic_bike,2/2/2024 14:07,2/2/2024,Friday,14:07:51,2/2/2024 14:07,2/2/2024,Friday,14:07:00,14:07:51,Michigan Ave & Ida B Wells Dr,Michigan Ave & Ida B Wells Dr,0
+classic_bike,2/2/2024 11:39,2/2/2024,Friday,11:39:16,2/2/2024 11:40,2/2/2024,Friday,11:40:00,11:39:16,Michigan Ave & Ida B Wells Dr,Michigan Ave & Ida B Wells Dr,0
+classic_bike,2/2/2024 18:15,2/2/2024,Friday,18:15:44,2/2/2024 18:16,2/2/2024,Friday,18:16:00,18:15:44,Michigan Ave & Ida B Wells Dr,Michigan Ave & Ida B Wells Dr,0
+electric_bike,2/2/2024 9:20,2/2/2024,Friday,9:20:53,2/2/2024 9:21,2/2/2024,Friday,9:21:00,9:20:53,Michigan Ave & Ida B Wells Dr,Michigan Ave & Ida B Wells Dr,0
+classic_bike,3/15/2024 10:41,3/15/2024,Friday,10:41:00,3/15/2024 11:17,3/15/2024,Friday,11:17:00,10:41:00,Michigan Ave & Ida B Wells Dr,Michigan Ave & Ida B Wells Dr,0
+classic_bike,3/1/2024 10:04,3/1/2024,Friday,10:04:00,3/1/2024 10:04,3/1/2024,Friday,10:04:00,10:04:00,Michigan Ave & Ida B Wells Dr,Michigan Ave & Ida B Wells Dr,0
+classic_bike,3/1/2024 7:14,3/1/2024,Friday,7:14:00,3/1/2024 7:15,3/1/2024,Friday,7:15:00,7:14:00,Michigan Ave & Ida B Wells Dr,Michigan Ave & Ida B Wells Dr,0
+classic_bike,3/1/2024 20:11,3/1/2024,Friday,20:11:00,3/1/2024 20:14,3/1/2024,Friday,20:14:00,20:11:00,Michigan Ave & Ida B Wells Dr,Michigan Ave & Ida B Wells Dr,0
+classic_bike,3/1/2024 7:52,3/1/2024,Friday,7:52:00,3/1/2024 7:52,3/1/2024,Friday,7:52:00,7:52:00,Michigan Ave & Ida B Wells Dr,Michigan Ave & Ida B Wells Dr,0
+classic_bike,3/1/2024 7:53,3/1/2024,Friday,7:53:00,3/1/2024 7:54,3/1/2024,Friday,7:54:00,7:53:00,Michigan Ave & Ida B Wells Dr,Michigan Ave & Ida B Wells Dr,0
+electric_bike,3/1/2024 19:08,3/1/2024,Friday,19:08:00,3/1/2024 19:10,3/1/2024,Friday,19:10:00,19:08:00,Michigan Ave & Ida B Wells Dr,Michigan Ave & Ida B Wells Dr,0
+electric_bike,3/1/2024 19:12,3/1/2024,Friday,19:12:00,3/1/2024 19:14,3/1/2024,Friday,19:14:00,19:12:00,Michigan Ave & Ida B Wells Dr,Michigan Ave & Ida B Wells Dr,0
+classic_bike,3/22/2024 20:47,3/22/2024,Friday,20:47:00,3/22/2024 23:43,3/22/2024,Friday,23:43:00,23:43:00,Buckingham Fountain,Michigan Ave & Ida B Wells Dr,1
+classic_bike,3/22/2024 14:57,3/22/2024,Friday,14:57:00,3/22/2024 15:06,3/22/2024,Friday,15:06:00,15:06:00,Canal St & Harrison St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/9/2024 16:24,2/9/2024,Friday,16:24:03,2/9/2024 16:29,2/9/2024,Friday,16:29:00,16:29:00,Canal St & Jackson Blvd,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/23/2024 18:50,2/23/2024,Friday,18:50:01,2/23/2024 19:02,2/23/2024,Friday,19:02:00,19:02:00,Canal St & Madison St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/16/2024 11:50,2/16/2024,Friday,11:50:20,2/16/2024 12:00,2/16/2024,Friday,12:00:00,12:00:00,Canal St & Madison St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,3/29/2024 11:49,3/29/2024,Friday,11:49:00,3/29/2024 12:00,3/29/2024,Friday,12:00:00,12:00:00,Canal St & Madison St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/23/2024 9:10,2/23/2024,Friday,9:10:33,2/23/2024 9:24,2/23/2024,Friday,9:24:00,9:24:00,Clinton St & Jackson Blvd,Michigan Ave & Ida B Wells Dr,1
+electric_bike,3/8/2024 0:07,3/8/2024,Friday,0:07:00,3/8/2024 0:13,3/8/2024,Friday,0:13:00,0:13:00,Clinton St & Jackson Blvd,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/9/2024 11:03,2/9/2024,Friday,11:03:53,2/9/2024 11:14,2/9/2024,Friday,11:14:00,11:14:00,Clinton St & Madison St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/23/2024 11:37,2/23/2024,Friday,11:37:19,2/23/2024 11:45,2/23/2024,Friday,11:45:00,11:45:00,Columbus Dr & Randolph St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,3/1/2024 18:51,3/1/2024,Friday,18:51:00,3/1/2024 20:12,3/1/2024,Friday,20:12:00,20:12:00,Daley Center Plaza,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/16/2024 13:15,2/16/2024,Friday,13:15:17,2/16/2024 13:18,2/16/2024,Friday,13:18:00,13:18:00,Dearborn St & Adams St,Michigan Ave & Ida B Wells Dr,1
+electric_bike,3/15/2024 13:52,3/15/2024,Friday,13:52:00,3/15/2024 14:00,3/15/2024,Friday,14:00:00,14:00:00,Desplaines St & Jackson Blvd,Michigan Ave & Ida B Wells Dr,1
+electric_bike,2/2/2024 14:03,2/2/2024,Friday,14:03:13,2/2/2024 14:18,2/2/2024,Friday,14:18:00,14:18:00,Emerald Ave & 31st St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,3/1/2024 14:15,3/1/2024,Friday,14:15:00,3/1/2024 14:22,3/1/2024,Friday,14:22:00,14:22:00,Federal St & Polk St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/16/2024 17:15,2/16/2024,Friday,17:15:09,2/16/2024 17:20,2/16/2024,Friday,17:20:00,17:20:00,Franklin St & Jackson Blvd,Michigan Ave & Ida B Wells Dr,1
+classic_bike,3/1/2024 16:44,3/1/2024,Friday,16:44:00,3/1/2024 16:55,3/1/2024,Friday,16:55:00,16:55:00,Franklin St & Jackson Blvd,Michigan Ave & Ida B Wells Dr,1
+classic_bike,3/29/2024 20:35,3/29/2024,Friday,20:35:00,3/29/2024 20:50,3/29/2024,Friday,20:50:00,20:50:00,Franklin St & Lake St,Michigan Ave & Ida B Wells Dr,1
+electric_bike,3/15/2024 18:23,3/15/2024,Friday,18:23:00,3/15/2024 19:04,3/15/2024,Friday,19:04:00,19:04:00,Franklin St & Lake St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/2/2024 13:04,2/2/2024,Friday,13:04:11,2/2/2024 13:28,2/2/2024,Friday,13:28:00,13:28:00,Halsted St & Dickens Ave,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/2/2024 19:35,2/2/2024,Friday,19:35:38,2/2/2024 19:40,2/2/2024,Friday,19:40:00,19:40:00,Indiana Ave & Roosevelt Rd,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/2/2024 19:36,2/2/2024,Friday,19:36:03,2/2/2024 19:40,2/2/2024,Friday,19:40:00,19:40:00,Indiana Ave & Roosevelt Rd,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/16/2024 17:22,2/16/2024,Friday,17:22:54,2/16/2024 17:27,2/16/2024,Friday,17:27:00,17:27:00,Indiana Ave & Roosevelt Rd,Michigan Ave & Ida B Wells Dr,1
+classic_bike,3/29/2024 18:52,3/29/2024,Friday,18:52:00,3/29/2024 18:57,3/29/2024,Friday,18:57:00,18:57:00,Indiana Ave & Roosevelt Rd,Michigan Ave & Ida B Wells Dr,1
+classic_bike,3/29/2024 18:52,3/29/2024,Friday,18:52:00,3/29/2024 18:57,3/29/2024,Friday,18:57:00,18:57:00,Indiana Ave & Roosevelt Rd,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/9/2024 13:21,2/9/2024,Friday,13:21:06,2/9/2024 13:35,2/9/2024,Friday,13:35:00,13:35:00,Kingsbury St & Kinzie St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/9/2024 12:55,2/9/2024,Friday,12:55:06,2/9/2024 13:00,2/9/2024,Friday,13:00:00,13:00:00,LaSalle St & Jackson Blvd,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/23/2024 13:39,2/23/2024,Friday,13:39:22,2/23/2024 13:44,2/23/2024,Friday,13:44:00,13:44:00,LaSalle St & Jackson Blvd,Michigan Ave & Ida B Wells Dr,1
+classic_bike,3/22/2024 10:09,3/22/2024,Friday,10:09:00,3/22/2024 10:17,3/22/2024,Friday,10:17:00,10:17:00,LaSalle St & Jackson Blvd,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/9/2024 15:08,2/9/2024,Friday,15:08:07,2/9/2024 15:14,2/9/2024,Friday,15:14:00,15:14:00,LaSalle St & Washington St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,3/15/2024 20:43,3/15/2024,Friday,20:43:00,3/15/2024 20:50,3/15/2024,Friday,20:50:00,20:50:00,LaSalle St & Washington St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/23/2024 9:18,2/23/2024,Friday,9:18:15,2/23/2024 9:25,2/23/2024,Friday,9:25:00,9:25:00,Michigan Ave & 14th St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,3/15/2024 9:22,3/15/2024,Friday,9:22:00,3/15/2024 9:29,3/15/2024,Friday,9:29:00,9:29:00,Michigan Ave & 14th St,Michigan Ave & Ida B Wells Dr,1
+electric_bike,2/23/2024 14:01,2/23/2024,Friday,14:01:55,2/23/2024 14:08,2/23/2024,Friday,14:08:00,14:08:00,Michigan Ave & 18th St,Michigan Ave & Ida B Wells Dr,1
+electric_bike,3/15/2024 8:44,3/15/2024,Friday,8:44:00,3/15/2024 8:51,3/15/2024,Friday,8:51:00,8:51:00,Michigan Ave & 18th St,Michigan Ave & Ida B Wells Dr,1
+electric_bike,3/1/2024 12:22,3/1/2024,Friday,12:22:00,3/1/2024 12:29,3/1/2024,Friday,12:29:00,12:29:00,Michigan Ave & 18th St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/9/2024 20:37,2/9/2024,Friday,20:37:37,2/9/2024 21:06,2/9/2024,Friday,21:06:00,21:06:00,Michigan Ave & 8th St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/23/2024 15:31,2/23/2024,Friday,15:31:58,2/23/2024 15:39,2/23/2024,Friday,15:39:00,15:39:00,Michigan Ave & Lake St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/2/2024 10:47,2/2/2024,Friday,10:47:58,2/2/2024 10:54,2/2/2024,Friday,10:54:00,10:54:00,Michigan Ave & Washington St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/2/2024 19:13,2/2/2024,Friday,19:13:33,2/2/2024 19:17,2/2/2024,Friday,19:17:00,19:17:00,Michigan Ave & Washington St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,3/15/2024 8:33,3/15/2024,Friday,8:33:00,3/15/2024 8:36,3/15/2024,Friday,8:36:00,8:36:00,Millennium Park,Michigan Ave & Ida B Wells Dr,1
+electric_bike,3/29/2024 10:58,3/29/2024,Friday,10:58:00,3/29/2024 11:17,3/29/2024,Friday,11:17:00,11:17:00,Morgan St & 31st St,Michigan Ave & Ida B Wells Dr,1
+electric_bike,3/22/2024 11:34,3/22/2024,Friday,11:34:00,3/22/2024 11:48,3/22/2024,Friday,11:48:00,11:48:00,Racine Ave & 15th St,Michigan Ave & Ida B Wells Dr,1
+electric_bike,3/1/2024 11:33,3/1/2024,Friday,11:33:00,3/1/2024 11:48,3/1/2024,Friday,11:48:00,11:48:00,Racine Ave & 18th St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,3/22/2024 14:10,3/22/2024,Friday,14:10:00,3/22/2024 14:19,3/22/2024,Friday,14:19:00,14:19:00,Rush St & Hubbard St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,3/15/2024 10:15,3/15/2024,Friday,10:15:00,3/15/2024 10:23,3/15/2024,Friday,10:23:00,10:23:00,Rush St & Hubbard St,Michigan Ave & Ida B Wells Dr,1
+electric_bike,2/9/2024 16:46,2/9/2024,Friday,16:46:52,2/9/2024 16:56,2/9/2024,Friday,16:56:00,16:56:00,State St & Kinzie St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/2/2024 9:11,2/2/2024,Friday,9:11:57,2/2/2024 9:20,2/2/2024,Friday,9:20:00,9:20:00,State St & Randolph St,Michigan Ave & Ida B Wells Dr,1
+electric_bike,2/9/2024 11:32,2/9/2024,Friday,11:32:53,2/9/2024 12:06,2/9/2024,Friday,12:06:00,12:06:00,Streeter Dr/Grand Ave,Michigan Ave & Ida B Wells Dr,1
+classic_bike,3/15/2024 8:59,3/15/2024,Friday,8:59:00,3/15/2024 9:07,3/15/2024,Friday,9:07:00,9:07:00,Wabash Ave & 16th St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/9/2024 8:57,2/9/2024,Friday,8:57:06,2/9/2024 9:00,2/9/2024,Friday,9:00:00,9:00:00,Wabash Ave & 9th St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/16/2024 8:24,2/16/2024,Friday,8:24:53,2/16/2024 8:44,2/16/2024,Friday,8:44:00,8:44:00,Wabash Ave & 9th St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/16/2024 8:32,2/16/2024,Friday,8:32:27,2/16/2024 8:44,2/16/2024,Friday,8:44:00,8:44:00,Wabash Ave & 9th St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,3/8/2024 9:33,3/8/2024,Friday,9:33:00,3/8/2024 9:36,3/8/2024,Friday,9:36:00,9:36:00,Wabash Ave & 9th St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/23/2024 10:12,2/23/2024,Friday,10:12:40,2/23/2024 10:15,2/23/2024,Friday,10:15:00,10:15:00,Wabash Ave & Adams St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/9/2024 1:31,2/9/2024,Friday,1:31:45,2/9/2024 1:34,2/9/2024,Friday,1:34:00,1:34:00,Wabash Ave & Adams St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/16/2024 9:05,2/16/2024,Friday,9:05:58,2/16/2024 9:10,2/16/2024,Friday,9:10:00,9:10:00,Wabash Ave & Roosevelt Rd,Michigan Ave & Ida B Wells Dr,1
+electric_bike,3/22/2024 13:52,3/22/2024,Friday,13:52:00,3/22/2024 13:57,3/22/2024,Friday,13:57:00,13:57:00,Wabash Ave & Roosevelt Rd,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/23/2024 8:47,2/23/2024,Friday,8:47:27,2/23/2024 8:58,2/23/2024,Friday,8:58:00,8:58:00,Wells St & Hubbard St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/2/2024 16:28,2/2/2024,Friday,16:28:36,2/2/2024 16:35,2/2/2024,Friday,16:35:00,16:35:00,Wells St & Polk St,Michigan Ave & Ida B Wells Dr,1
+electric_bike,3/15/2024 18:15,3/15/2024,Friday,18:15:00,3/15/2024 19:05,3/15/2024,Friday,19:05:00,19:05:00,Wells St & Randolph St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/9/2024 11:24,2/9/2024,Friday,11:24:07,2/9/2024 11:41,2/9/2024,Friday,11:41:00,11:41:00,Wentworth Ave & 24th St,Michigan Ave & Ida B Wells Dr,1
+classic_bike,2/23/2024 12:18,2/23/2024,Friday,12:18:42,2/23/2024 12:33,2/23/2024,Friday,12:33:00,12:33:00,Wentworth Ave & Cermak Rd*,Michigan Ave & Ida B Wells Dr,1
