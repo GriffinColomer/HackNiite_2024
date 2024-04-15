@@ -13,7 +13,7 @@ export default function ResponsiveTimePickers() {
           'MobileTimePicker',
         ]}
       >
-        <DemoItem label="Mobile variant">
+        <DemoItem>
           <MobileTimePicker defaultValue={dayjs('2022-04-17T15:30')} />
         </DemoItem>
       </DemoContainer>
