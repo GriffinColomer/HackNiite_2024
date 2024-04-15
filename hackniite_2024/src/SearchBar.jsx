@@ -1,21 +1,19 @@
 import React, { useState } from 'react';
-import './SearchBar.css'; // Import your CSS file
+import './SearchBar.css';
 
-const SearchBar = ({ stations = [] }) => {
-  const [startStation, setStartStation] = useState('');
-  const [endStation, setEndStation] = useState('');
+const SearchBar = ({ stations = [], onStartStationChange, onEndStationChange, startStation, endStation }) => {
   const [suggestions, setSuggestions] = useState([]);
 
   const handleStartStationChange = (event) => {
     const { value } = event.target;
-    setStartStation(value);
     filterSuggestions(value, setSuggestions);
+    onStartStationChange(value);
   };
 
   const handleEndStationChange = (event) => {
     const { value } = event.target;
-    setEndStation(value);
     filterSuggestions(value, setSuggestions);
+    onEndStationChange(value);
   };
 
   const filterSuggestions = (value, setSuggestionsCallback) => {
