@@ -1,13 +1,10 @@
 import React, { useState } from 'react';
-// import get_divvy_stations from './station_info';
 import './SearchBar.css'; // Import your CSS file
 
-const SearchBar = () => {
+const SearchBar = ({ stations = [] }) => {
   const [startStation, setStartStation] = useState('');
   const [endStation, setEndStation] = useState('');
   const [suggestions, setSuggestions] = useState([]);
-
-  // const divvyStations = get_divvy_stations().map(station => station.station_name);
 
   const handleStartStationChange = (event) => {
     const { value } = event.target;
@@ -22,10 +19,11 @@ const SearchBar = () => {
   };
 
   const filterSuggestions = (value, setSuggestionsCallback) => {
-    // const filteredSuggestions = divvyStations.filter(station =>
-    //   station.toLowerCase().includes(value.toLowerCase())
-    // );
-    // setSuggestionsCallback(filteredSuggestions);
+    const filteredSuggestions = stations.filter(station =>
+      station.stationName.toLowerCase().includes(value.toLowerCase())
+    );
+    const names = filteredSuggestions.map(x => x.stationName);
+    setSuggestionsCallback(names);
   };
 
   return (

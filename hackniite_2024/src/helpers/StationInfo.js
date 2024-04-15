@@ -1,36 +1,33 @@
-const all_divvy_stops = [];
-
-function divvy_stop(latitude, longitude, station_name){
-    this.latitude = latitude;
-    this.longitude = longitude;
-    this.station_name = station_name;
-    return this;
+function createDivvyStop(latitude, longitude, stationName) {
+  const stop = {
+    latitude: latitude,
+    longitude: longitude,
+    stationName: stationName
   };
-  
-  function parse_divvy_stops(data) {
-    for (let i = 0; i < data["data"]["stations"].length; i++) {
-      if (data["data"]["stations"][i]["name"].includes("Public") === false){
-        all_divvy_stops[i] = new divvy_stop(data["data"]["stations"][i]["lat"], data["data"]["stations"][i]["lon"], data["data"]["stations"][i]["name"]);
-      }
-        
-  }
-  }
+  return stop;
+};
 
-  function fetch_data() {
-    fetch('https://gbfs.lyft.com/gbfs/2.3/chi/en/station_information.json')
-        .then(response => response.json())
-        .then(data => {
-          parse_divvy_stops(data)
-        });
-  }
+function getFilteredDivvyStops(data) {
+  const filteredDivvyStops = [];
 
-export default function get_divvy_stations() {
-    // useEffect(() => {
-    //     (async() => {
-    //       fetch_data();
-    //     })();
-    //   }, []);
-    fetch_data()
-      return all_divvy_stops
+  for (let i = 0; i < data["data"]["stations"].length; i++) {
+    if (data["data"]["stations"][i]["name"].includes("Public") === false) {
+      const divvyStop = createDivvyStop(
+        data["data"]["stations"][i]["lat"],
+        data["data"]["stations"][i]["lon"],
+        data["data"]["stations"][i]["name"]
+      );
+      filteredDivvyStops.push(divvyStop);
+    }
+  }
+  return filteredDivvyStops;
 }
-  
+
+export default async function getDivvyStations() {
+  const stops = await fetch('https://gbfs.lyft.com/gbfs/2.3/chi/en/station_information.json')
+    .then(response => response.json())
+    .then(data => {
+      return getFilteredDivvyStops(data)
+    });
+  return stops;
+}

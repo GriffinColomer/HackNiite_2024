@@ -1,20 +1,34 @@
-import React from 'react';
-import get_divvy_stations from './helpers/StationInfo'
+import React, { useState, useEffect } from 'react';
 import DivvyMap from './DivvyMap';
 import SearchBar from './SearchBar';
+import getDivvyStations from './helpers/StationInfo';
 
 const App = () => {
-  const divvy_stations = get_divvy_stations();
-  // console.log(divvy_stations)
+  const [divvyStations, setData] = useState([]);
 
-    return (
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const divvyStations = await getDivvyStations();
+        setData(divvyStations);
+      } catch (error) {
+        console.error('Error fetching stations:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  return (
     <div>
-      <SearchBar/>
+      <SearchBar
+        stations={divvyStations}
+      />
       <DivvyMap
-        stations={divvy_stations}
+        stations={divvyStations}
       />
     </div>
-    );
+  );
 };
 
 export default App;
