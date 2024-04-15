@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ResponsiveTimePickers from './time_picker';
 import './SearchBar.css';
 
 const SearchBar = ({ stations = [], onStartStationChange, onEndStationChange, startStation, endStation }) => {
@@ -51,6 +52,9 @@ const SearchBar = ({ stations = [], onStartStationChange, onEndStationChange, st
           className="search-input"
           disabled={!startStation}
         />
+      </div>
+      <div>
+        {ResponsiveTimePickers()}
       </div>
     </div>
   );
