@@ -18,6 +18,7 @@ const App = () => {
       try {
         const divvyStations = await getDivvyStations();
         setData(divvyStations);
+        console.log(divvyStations)
       } catch (error) {
         console.error('Error fetching stations:', error);
       }
