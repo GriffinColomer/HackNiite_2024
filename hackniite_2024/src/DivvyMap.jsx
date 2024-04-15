@@ -1,18 +1,20 @@
 import React from 'react';
-
-import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
+import { GoogleMap, useLoadScript, Marker, InfoWindow } from '@react-google-maps/api';
 
 const libraries = ['places'];
+
 const mapContainerStyle = {
   width: '100%',
   height: '50vh',
 };
+
 const loadPosition = {
   lat: 41.8781,
   lng: -87.6298
 };
 
 const DivvyMap = ({ stations = [] }) => {
+  const [selectedMarker, setSelectedMarker] = React.useState(null);
 
   const { isLoaded, loadError } = useLoadScript({
     id: 'google-map-script',
@@ -21,24 +23,6 @@ const DivvyMap = ({ stations = [] }) => {
   });
 
   const renderMap = (stationsRender = []) => {
-    // const onLoad = React.useCallback(
-    //   function onLoad(mapInstance) {
-    //     // do something with map Instance
-    //   }
-    // )
-
-    const markers = []; // Create an empty array to store Markers
-
-    for (let i = 0; i < stationsRender.length; i++)
-    {
-      const markerPosition = {
-        lat: stationsRender[i].latitude,
-        lng: stationsRender[i].longitude,
-      };
-      markers.push(<Marker key={i} title={stationsRender[i].stationName} position={markerPosition} />);
-    }
-
-    // Render the preprocessed data
     return (
       <div>
         <GoogleMap
@@ -46,7 +30,30 @@ const DivvyMap = ({ stations = [] }) => {
           zoom={11}
           center={loadPosition}
         >
-          {markers}
+          {stationsRender.map((station, index) => (
+            <Marker
+              key={index}
+              title={station.stationName}
+              position={{
+                lat: station.latitude,
+                lng: station.longitude,
+              }}
+              onClick={() => setSelectedMarker(station)}
+            />
+          ))}
+          {selectedMarker && (
+            <InfoWindow
+              position={{
+                lat: selectedMarker.latitude,
+                lng: selectedMarker.longitude,
+              }}
+              onCloseClick={() => setSelectedMarker(null)}
+            >
+              <div>
+                <h3>{selectedMarker.stationName}</h3>
+              </div>
+            </InfoWindow>
+          )}
         </GoogleMap>
       </div>
     );
