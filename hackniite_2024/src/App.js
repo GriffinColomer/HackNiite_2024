@@ -4,12 +4,14 @@ import SearchBar from './SearchBar';
 import RouteMap from './RouteMap';
 import getDivvyStations from './helpers/StationInfo';
 import './App.css'; // Import the CSS file for styling
+import dayjs from 'dayjs';
 
 const App = () => {
   const [divvyStations, setData] = useState([]);
   const [startStation, setStartStation] = useState('');
   const [endStation, setEndStation] = useState('');
   const [showRoute, setShowRoute] = useState(false);
+  const [selectedTime, setSelectedTime] = useState(dayjs)
 
   useEffect(() => {
     const fetchData = async () => {
@@ -44,6 +46,8 @@ const App = () => {
           onEndStationChange={setEndStation}
           startStation={startStation}
           endStation={endStation}
+          selectedTime={selectedTime}
+          setSelectedTime={setSelectedTime}
         />
         <div className="button-container">
           <button className="button" onClick={handleShowRouteClick}>
@@ -60,6 +64,7 @@ const App = () => {
             startStation={startStation}
             endStation={endStation}
             stations={divvyStations}
+            selectedTime={selectedTime}
           />
         ) : (
           <DivvyMap stations={divvyStations} />

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 
-const RouteMap = ({ startStation, endStation, stations }) => {
+const RouteMap = ({ startStation, endStation, stations, selectedTime }) => {
   const mapRef = useRef(null);
   const [distance, setDistance] = useState('');
   const [duration, setDuration] = useState('');
@@ -45,7 +45,7 @@ const RouteMap = ({ startStation, endStation, stations }) => {
 
   return <div>
             <div ref={mapRef} style={{ height: '400px' }} />
-            <p>Duration: {duration} Distance: {distance}</p>
+            <p>Duration: {duration} Distance: {distance} time: {selectedTime.format('LT')}</p>
           </div>;
 };
 

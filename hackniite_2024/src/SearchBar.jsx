@@ -3,15 +3,9 @@ import { MobileTimePicker } from '@mui/x-date-pickers/MobileTimePicker';
 import { LocalizationProvider } from '@mui/x-date-pickers';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
 import './SearchBar.css';
-import dayjs from 'dayjs';
 
-const SearchBar = ({ stations = [], onStartStationChange, onEndStationChange, startStation, endStation, time }) => {
+const SearchBar = ({ stations = [], onStartStationChange, onEndStationChange, startStation, endStation, selectedTime, setSelectedTime}) => {
   const [suggestions, setSuggestions] = useState([]);
-  const [selectedTime, setSelectedTime] = useState(dayjs);
-
-  const handleTimeSelection = (e) => {
-    setSelectedTime(e.value);
-  };
 
   const handleStartStationChange = (event) => {
     const { value } = event.target;
@@ -66,7 +60,7 @@ const SearchBar = ({ stations = [], onStartStationChange, onEndStationChange, st
             <MobileTimePicker
               className='time-picker'
               value={selectedTime}
-              onChange={handleTimeSelection}/>
+              onChange={setSelectedTime}/>
         </LocalizationProvider>
       </div>
     </div>
