@@ -35,7 +35,7 @@ const DivvyMap = ({ stations = [] }) => {
         lat: stationsRender[i].latitude,
         lng: stationsRender[i].longitude,
       };
-      markers.push(<Marker key={i} title={stationsRender[i].station_name} position={markerPosition} />);
+      markers.push(<Marker key={i} title={stationsRender[i].stationName} position={markerPosition} />);
     }
 
     // Render the preprocessed data
