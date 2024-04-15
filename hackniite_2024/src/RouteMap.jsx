@@ -1,7 +1,9 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 const RouteMap = ({ startStation, endStation, stations }) => {
   const mapRef = useRef(null);
+  const [distance, setDistance] = useState('');
+  const [duration, setDuration] = useState('');
 
   useEffect(() => {
     if (startStation && endStation) {
@@ -33,13 +35,18 @@ const RouteMap = ({ startStation, endStation, stations }) => {
             const duration = route.legs[0].duration.text;
             console.log(`Distance: ${distance}`);
             console.log(`Duration: ${duration}`);
+            setDistance(distance);
+            setDuration(duration);
           }
         });
       }
     }
   }, [startStation, endStation, stations]);
 
-  return <div ref={mapRef} style={{ height: '400px' }} />;
+  return <div>
+            <div ref={mapRef} style={{ height: '400px' }} />
+            <p>Duration: {duration} Distance: {distance}</p>
+          </div>;
 };
 
 export default RouteMap;
